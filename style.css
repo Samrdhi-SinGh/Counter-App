@@ -1,14 +1,57 @@
-    body {
-      font-family: Arial;
-      text-align: center;
-    }
+* {
+  margin: 20px 10px;
+  font-family: Arial;
+  text-align: center;
+}
 
-    .value {
-      display: inline-block;
-      padding: 10px;
-      margin-bottom: 10px;
-      font-weight: bold;
-      font-size: 20px;
-    }
+.small-page{
+  background: linear-gradient(#d88fda, rgb(245, 245, 139));
+  display: inline-block;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.value {
+  display: block;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 35px 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.js-inc-button{
+  background: linear-gradient(#611661, #fe8533);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.js-res-button{
+  background: linear-gradient(#6e2f2f, #cf962e);
+  color: white;
+  border: none;
+  padding: 8px 26px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.js-dec-button{
+  background: linear-gradient(#ab41ab, #185275);
+  color: white;
+  border: none;
+  padding: 8px 13px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  cursor: pointer;
+}
 
 

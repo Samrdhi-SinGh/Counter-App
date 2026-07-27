@@ -5,10 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Counter App</title>
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .samll-page{
+      align-items: center;
+    }
+  </style>
 </head>
 
 <body>
+
+  <div class="small-page">
   <h2>Counter App</h2>
 
   <div class="value">0</div>
@@ -18,17 +26,19 @@
   " class="js-inc-button">
       Increase</button>
 
-    <button onclick="
-  DecreaseNum();
-  " class="js-dec-button">
-      Decrease</button>
 
     <button onclick="
   ResetNum();
   " class="js-res-button">
       Reset</button>
-  </div>
 
+    <button onclick="
+  DecreaseNum();
+  " class="js-dec-button">
+      Decrease</button>
+
+  </div>
+</div>
   <script src="script.js"></script>
 </body>
 
